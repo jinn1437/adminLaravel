@@ -1,5 +1,7 @@
 DirectoryIndex public/index.php
 
+AddType text/css .css
+
 <IfModule mod_rewrite.c>
     <IfModule mod_negotiation.c>
         Options -MultiViews -Indexes
