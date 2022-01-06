@@ -1,4 +1,4 @@
-DirectoryIndex public/server.php
+DirectoryIndex public/index.php
 
 <IfModule mod_rewrite.c>
     <IfModule mod_negotiation.c>
@@ -20,7 +20,7 @@ DirectoryIndex public/server.php
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
     # RewriteRule ^ public/index.php [L]
-    RewriteRule ^ server.php [L]
-    # RewriteRule ^$ public/ [L]
+    # RewriteRule ^ public/index.php [L]
+    RewriteRule ^$ public/ [L]
     # RewriteRule ((?s).*) public/$1 [L]
 </IfModule>
