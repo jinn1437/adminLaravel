@@ -19,7 +19,7 @@ DirectoryIndex public/index.php
     # Send Requests To Front Controller...
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
-    # RewriteRule ^ public/index.php [L]
+    RewriteRule ^ public/index.php [L]
     RewriteRule ^$ public/ [L]
     RewriteRule ((?s).*) public/$1 [L]
 </IfModule>
