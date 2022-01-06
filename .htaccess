@@ -1,6 +1,4 @@
-DirectoryIndex public/index.php
-
-AddType text/css .css
+DirectoryIndex public/server.php
 
 <IfModule mod_rewrite.c>
     <IfModule mod_negotiation.c>
